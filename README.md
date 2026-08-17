@@ -1,16 +1,3 @@
-Yes — the README is **mostly correct**, and it already gives a good impression. I would make a few important corrections:
-
-1. Your model comparison table has broken Markdown formatting.
-2. You previously tested **Multinomial Naive Bayes**, so include it only if you actually ran it. Otherwise don't claim it.
-3. Your Logistic Regression accuracy of **76.06%** corresponds to `432/568`, so that part is correct.
-4. Your confusion matrix `[[202, 68], [68, 230]]` sums to 568 and gives `432/568 = 76.06%`.
-5. Your README says "balanced precision and recall across the two classes" — better to say **balanced precision and recall for the Stress class**, since your listed metrics are specifically for the positive class.
-6. Since your actual project currently uses `label=0/1`, it's useful to explicitly document `0 = No Stress`, `1 = Stress`.
-7. I'd make the wording slightly more professional and recruiter-friendly.
-
-Here is the **corrected version I'd recommend putting directly into `README.md`**:
-
-````markdown
 # Stress Detection from Text using NLP
 
 A machine learning project that classifies text as **Stress** or **No Stress** using Natural Language Processing (NLP) and machine learning techniques.
