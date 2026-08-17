@@ -247,11 +247,3 @@ This project is intended for **educational and demonstration purposes only**.
 
 It is a machine learning text-classification project and should **not** be used as a medical or psychological diagnostic tool.
 
-```
-
-### One thing I would **not** add yet
-
-Don't write that you used **Multinomial Naive Bayes** in the README unless you've actually trained and evaluated it. Since we're still going through your models, you can add it later once you have its actual results.
-
-Also, your current README is now strong enough for the GitHub repository. The next worthwhile improvement would be adding **a screenshot of your WordCloud, model comparison graph, and confusion matrix** to make the repository visually stronger.
-```
